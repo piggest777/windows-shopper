@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8456ACBA200401460045D520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456ACB9200401460045D520 /* AppDelegate.swift */; };
-		8456ACBC200401460045D520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456ACBB200401460045D520 /* ViewController.swift */; };
+		8456ACBC200401460045D520 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456ACBB200401460045D520 /* MainVC.swift */; };
 		8456ACBF200401460045D520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456ACBD200401460045D520 /* Main.storyboard */; };
 		8456ACC1200401460045D520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8456ACC0200401460045D520 /* Assets.xcassets */; };
 		8456ACC4200401460045D520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456ACC2200401460045D520 /* LaunchScreen.storyboard */; };
+		8456ACCE2004041A0045D520 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456ACCD2004041A0045D520 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8456ACB6200401460045D520 /* windows-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "windows-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456ACB9200401460045D520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8456ACBB200401460045D520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8456ACBB200401460045D520 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		8456ACBE200401460045D520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8456ACC0200401460045D520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8456ACC3200401460045D520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8456ACC5200401460045D520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8456ACCD2004041A0045D520 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		8456ACB8200401460045D520 /* windows-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				8456ACCC200403CE0045D520 /* Views */,
+				8456ACCB200402670045D520 /* Controler */,
 				8456ACB9200401460045D520 /* AppDelegate.swift */,
-				8456ACBB200401460045D520 /* ViewController.swift */,
 				8456ACBD200401460045D520 /* Main.storyboard */,
 				8456ACC0200401460045D520 /* Assets.xcassets */,
 				8456ACC2200401460045D520 /* LaunchScreen.storyboard */,
 				8456ACC5200401460045D520 /* Info.plist */,
 			);
 			path = "windows-shopper";
+			sourceTree = "<group>";
+		};
+		8456ACCB200402670045D520 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				8456ACBB200401460045D520 /* MainVC.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		8456ACCC200403CE0045D520 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8456ACCD2004041A0045D520 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8456ACBC200401460045D520 /* ViewController.swift in Sources */,
+				8456ACCE2004041A0045D520 /* CurrencyTxtField.swift in Sources */,
+				8456ACBC200401460045D520 /* MainVC.swift in Sources */,
 				8456ACBA200401460045D520 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
